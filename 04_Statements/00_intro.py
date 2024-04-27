@@ -1,4 +1,8 @@
 """
-Simple Python 'Hello World!' program
+Simple Python statement
 """
-print('Hello World!')
+
+while True:
+    reply = input("Enter text: ")
+    if reply == 'stop': break
+    print(reply)
