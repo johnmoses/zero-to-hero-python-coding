@@ -1,4 +1,5 @@
 """
-Simple Python 'Hello World!' program
+Python Expressions
 """
-print('Hello World!')
+x = 1 + 1
+print(x)
