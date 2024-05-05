@@ -1,4 +1,3 @@
 """
-Simple Python 'Hello World!' program
+Code Structure
 """
-print('Hello World!')
