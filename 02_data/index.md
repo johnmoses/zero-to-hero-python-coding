@@ -1,4 +1,4 @@
-# Types
+# Data Model
 
 - [Introduction](00_intro.md)
 - [Dynamic Types](00_intro.md)
