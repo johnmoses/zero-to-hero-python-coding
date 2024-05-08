@@ -1,5 +1,6 @@
 """ 
-Intersect
+Intersect sequences with different inputs,
+to demonstrate polymorphism 
 """
 
 def intersect(seq1, seq2):
@@ -11,4 +12,7 @@ def intersect(seq1, seq2):
 
 s1 = 'scam'
 s2 = 'spam'
-intersect(s1, s2)
+s3 = [1,2,3]
+s4 = [3,4,5]
+print(intersect(s1, s2))
+print(intersect(s3, s4))
