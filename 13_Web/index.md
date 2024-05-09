@@ -1,5 +1,5 @@
 # Web Frameworks
 
-- [Introduction](00_intro.md)
-- [Flask](00_intro.md)
-- [Django](00_intro.md)
+- [Introduction](intro.md)
+- [Flask](flask.md)
+- [Django](django.md)

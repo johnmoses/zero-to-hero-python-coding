@@ -58,12 +58,3 @@ for index in range(len(T3)):
 # Searching
 print('Searching')
 print('c' in T1)
-
-# Search in tuple
-def searchInTuple(searchTuple, element):
-    for i in searchTuple:
-        if i == element:
-            return searchTuple.index(i)
-    return 'The element does not exist'
-
-print(searchInTuple(T1, 'c'))

@@ -1,9 +1,9 @@
 # Data Model
 
-- [Introduction](00_intro.md)
-- [Dynamic Types](00_intro.md)
-- [Numbers](00_intro.md)
-- [Strings](00_intro.md)
-- [Lists](00_intro.md)
-- [Dictionaries](00_intro.md)
-- [Tuples](00_intro.md)
+- [Introduction](intro.md)
+- [Dynamic Types](intro.md)
+- [Numbers](intro.md)
+- [Strings](intro.md)
+- [Lists](intro.md)
+- [Dictionaries](intro.md)
+- [Tuples](intro.md)
