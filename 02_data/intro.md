@@ -1,4 +1,6 @@
-# Types
+# Objects, Values and Types
+
+Objects are Python's abstraction for data. All data is represented by objects or relations between objects. They have identity, type and value. The identity or object id is the memory address of the object
 
 ## Numbers
 1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
