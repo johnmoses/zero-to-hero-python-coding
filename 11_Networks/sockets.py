@@ -1,3 +1,0 @@
-"""
-Sockets Programming
-"""
