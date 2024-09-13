@@ -1,6 +1,5 @@
 """
-Numbers
-Different values
+Numbers with different values
 """
 a = 1
 b = 2

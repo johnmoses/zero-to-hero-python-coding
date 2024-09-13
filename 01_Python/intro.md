@@ -7,6 +7,7 @@ Software is a set of instructions for the computer to perform a task. Here is a 
 10001011011000010001000001001110
 
 ## Python interactive shell
+
 We can also enter code and run them in python shell without creating any files.
 
 ```py
@@ -24,20 +25,22 @@ print("    *    ")
 ```
 
 Running a simple Program
-```
+
+```py
 print('Hello World!)
 ```
 
 ## What is python
-## Where do we need python in computing
-## Who is using python
 
+## Where do we need python in computing
+
+## Who is using python
 
 ## Python keywords
 
 and asassert break class continue def
-del from None elif global nonlocal else 
-if not except import or False in pass finally 
+del from None elif global nonlocal else
+if not except import or False in pass finally
 is raise forlambda return try True while with
 yield
 
@@ -52,6 +55,7 @@ await               finally             nonlocal            yield
 break               for                 not  
 
 How do you get this from the command line?
+
 ```py
 >>> import keyword
 >>> keyword.kwlist
@@ -61,4 +65,5 @@ How do you get this from the command line?
 ```
 
 ## Comments
+
 ## Capturing user input

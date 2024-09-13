@@ -1,8 +1,10 @@
 # zero-to-hero-coding
+
 Learning to code from scratch using Python Language
 
 Table of Contents
-- [01 Python](./01_python/index.md)
+
+- [01 Python Programming](./01_python/index.md)
 - [02 Data Model](./02_data/index.md)
 - [03 Expressions](./03_expressions/index.md)
 - [04 Statements](./04_statements/index.md)
