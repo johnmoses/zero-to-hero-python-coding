@@ -22,3 +22,9 @@ print(c)
 ## Polymorphism
 
 Here the functions does different things depending on the supplied arguments. The times function does multiplication in one and repetition in another. Polymorphism is also called `duck typing` as compared to how a duck quacks
+
+- [Introduction](intro.md)
+- [Function Scopes](00_intro.md)
+- [Recursive Functions](00_intro.md)
+- [Lambda Functions](00_intro.md)
+- [Generator Functions](00_intro.md)

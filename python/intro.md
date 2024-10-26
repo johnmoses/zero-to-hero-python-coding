@@ -67,3 +67,8 @@ How do you get this from the command line?
 ## Comments
 
 ## Capturing user input
+
+- [Introduction](intro.md)
+- [Python Ecosystem](intro.md)
+- [Lexical Structure](intro.md)
+- [Built-in functions](builtin_functions.md)
