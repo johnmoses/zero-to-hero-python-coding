@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/johnmoses/Codings/zero-to-hero-coding/exceptions/badly.py", line 7, in <module>
+    inverse(0)
+  File "/Users/johnmoses/Codings/zero-to-hero-coding/exceptions/badly.py", line 4, in inverse
+    return 1 / x
+ZeroDivisionError: division by zero
