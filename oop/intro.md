@@ -24,4 +24,3 @@ class SharedData:
 - [Inheritance](inheritance.md)
 - [Polymorphism](polymorphism.md)
 - [Operator Overloading](overloading.md)
-

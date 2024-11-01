@@ -1,6 +1,3 @@
-"""
-Simple database program
-"""
 # Initialize data to be stored in files, pickles and shelves
 
 # Records
