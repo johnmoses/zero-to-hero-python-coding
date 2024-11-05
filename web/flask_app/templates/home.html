@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="container">
+    <h1>Welcome to {{name}}</h1>
+    <p>This is my Flask App project. It has the following components:</p>
+    <ul class="tech-lists">
+        {% for tech in techs %}
+        <li class="tech">{{tech}}</li>
+
+        {% endfor %}
+    </ul>
+</div>
+
+
+{% endblock %}

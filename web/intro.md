@@ -12,8 +12,12 @@ A web framework is a software framework that is designed to support the developm
 - High performance
 - Modular architecture
 
-## Popular web development frameworks
+Some of the popular web frameworks includes Django and Flask
 
-- [Introduction](intro.md)
-- [Flask](flask.md)
-- [Django](django.md)
+## Django
+
+Python Django is usually called the framework for perfectionists.
+
+## Flask
+
+Python Flask is a web framework for building web pages.
