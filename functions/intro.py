@@ -1,16 +1,33 @@
 """
 Functions
 """
-# function definition
+# Function definition or declaration
 def times(x, y):
     return x * y 
 
-# function call
+# Function call
 print(times(2,3))
 
-# saving result to another object
+# Saving result to another object
 c = times(3, 4)
 print(c)
 
-# use various types as input parameters
+# Using various types as input parameters
 print(times('ne', 3))
+
+# Function without parameters
+def generate_full_name ():
+    first_name = 'John'
+    last_name = 'Mark'
+    space = ' '
+    full_name = first_name + space + last_name
+    print(full_name)
+generate_full_name()
+
+# Returning a value
+def add_two_numbers ():
+    num_one = 2
+    num_two = 3
+    total = num_one + num_two
+    return total
+print(add_two_numbers())

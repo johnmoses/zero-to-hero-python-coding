@@ -1,6 +1,8 @@
 # Objects, Values and Types
 
-Objects are Python's abstraction for data. All data is represented by objects or relations between objects. They have identity, type and value. The identity or object id is the memory address of the object
+Objects are Python's abstraction for data. They are the variables and constants that are stored in the computer memory for subsequent processing.
+
+All data is represented by objects or relations between objects. They have identity, type and value. The identity or object id is the memory address of the object
 
 ## Numbers
 

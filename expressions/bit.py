@@ -1,3 +1,7 @@
+""" 
+Bitwise Operators
+"""
+
 a = 60 # 60 = 0011 1100
 b = 13 # 13 = 0000 1101
 print('1 => a = ',a,':',bin(a),'b = ',b,':',bin(b))

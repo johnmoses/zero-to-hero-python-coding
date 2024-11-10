@@ -1,9 +1,12 @@
+""" 
+Arithmetic Operators
+"""
+
 a = 2
 b = 3
-print(a,b)
 
 c = a + b
-print('1: ',c)
+print('Addition: ',c)
 
 c += a 
 print('2: ',c)
