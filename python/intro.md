@@ -68,7 +68,9 @@ How do you get this from the command line?
 
 ## Capturing user input
 
-- [Introduction](intro.md)
-- [Python Ecosystem](intro.md)
-- [Lexical Structure](intro.md)
-- [Built-in functions](builtin_functions.md)
+## Conceptual Hierarchy
+
+1. Programs are composed of modules.
+2. Modules contain statements.
+3. Statements contain expressions.
+4. Expressions create and process objects.

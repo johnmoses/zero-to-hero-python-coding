@@ -29,3 +29,22 @@ value1 = int(input('Enter a number: '))
 value2 = int(input('Enter another number: '))
 sum = value1 + value2
 print(value1, " + ", value2, " = ", sum)
+
+# Getting data type
+x = 5
+print(type(x))
+
+# Setting data type
+x = "Hello World"
+x = int(20)
+x = float(20.5)
+x = complex(1j)
+x = list(("apple", "banana", "cherry"))
+x = tuple(("apple", "banana", "cherry"))
+x = dict(name="John", age=36)
+x = set(("apple", "banana", "cherry"))
+x = frozenset(("apple", "banana", "cherry"))
+x = bool(5)
+x = bytes(5)
+x = bytearray(5)
+x = memoryview(bytes(5))

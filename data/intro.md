@@ -4,7 +4,18 @@ Objects are Python's abstraction for data. They are the variables and constants 
 
 All data is represented by objects or relations between objects. They have identity, type and value. The identity or object id is the memory address of the object
 
-## Numbers
+## Built-in data types
+
+Text Type: str
+Numeric Types: int, float, complex
+Sequence Types: list, tuple, range
+Mapping Type: dict
+Set Types: set, frozenset
+Boolean Type: bool
+Binary Types: bytes, bytearray, memoryview
+None Type: NoneType
+
+## Numeric
 
 1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
 
