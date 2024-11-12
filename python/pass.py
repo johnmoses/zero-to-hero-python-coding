@@ -1,3 +1,4 @@
+
 for letter in 'Python':
     if letter == 'o':
         pass

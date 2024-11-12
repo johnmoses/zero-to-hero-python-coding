@@ -38,3 +38,15 @@ print(family)
 # Get properties
 print(len(students))
 print(type(students))
+
+# Get value from key
+print(students['name'])
+
+# Get keys
+print(students.keys())
+
+# Get values
+print(students.values())
+
+# Get items
+print(students.items())

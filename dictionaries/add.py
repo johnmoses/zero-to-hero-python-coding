@@ -1,7 +1,7 @@
 """ 
-Update
+Add
 """
 
 students = {'name': 'Edy', 'age': 26}
-students.update({'name':'Vicky'})
+students['course'] = 'Computer'
 print(students.items())

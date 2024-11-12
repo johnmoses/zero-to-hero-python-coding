@@ -1,7 +1,7 @@
 """ 
-Update
+Remove
 """
 
 students = {'name': 'Edy', 'age': 26}
-students.update({'name':'Vicky'})
+students.pop('age')
 print(students.items())
