@@ -1,30 +1,32 @@
 """
 OOP example
 """
-# Define a class
-class SharedData:
-    spam = 10
+# Creating or defining a class
+class Apple:
+    size = 3
 
-    # Constructor
-    # def __init__(self, value):
-    #     self.spam = value
+# Creating object and instantiating a class
+a = Apple()
 
-    # Class method
-    def display(self):
-        print(self.spam)
+# Accesing a property
+print(a.size)
 
-# Creating instances
-x = SharedData()    # Instance of the class
-y = SharedData()    # Another instance
+# Add more features
+class Orange:
+    # Constructor function or method
+    def __init__(self, size, color):
+        self.size = size
+        self.color = color
 
-# Accessing attributes
-print(x.spam)
-print(y.spam)
+    # String representation of the object
+    def __str__(self):
+        return f"{self.size}({self.color})"
 
-# Accessing methods
-x.display()
+    def describe(self):
+        print(f"Orange is size {self.size} and color {self.color}")
 
-# Modifying attributes
-SharedData.spam = 80
-print(x.spam)
-print(y.spam)
+o = Orange(3, "Green")
+print(o)
+print(o.size)
+print(o.color)
+o.describe()

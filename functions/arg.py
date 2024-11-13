@@ -1,5 +1,5 @@
 """
-Using a parameter
+Using a parameter or argument
 """
 
 def greetings (name):

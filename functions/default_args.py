@@ -1,5 +1,5 @@
 """
-Default parameters
+Default parameters or arguments
 """
 
 def calculate_age (birth_year,current_year = 2021):

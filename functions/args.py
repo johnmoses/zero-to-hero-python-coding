@@ -1,5 +1,5 @@
 """
-Using many parameters
+Using many parameters or arguments
 """
 
 def sum_two_numbers (num_one, num_two):
