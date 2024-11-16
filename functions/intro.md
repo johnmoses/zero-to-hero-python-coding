@@ -24,3 +24,12 @@ print(c)
 ## Polymorphism
 
 Here the functions does different things depending on the supplied arguments. The times function does multiplication in one and repetition in another. Polymorphism is also called `duck typing` as compared to how a duck quacks
+
+## Scope
+
+A variable is only available from inside the region it is created
+
+Local: A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
+
+Global: A variable created in the main body of the Python code is a global variable and belongs to the global scope.
+Global variables are available from within any scope, global and local.

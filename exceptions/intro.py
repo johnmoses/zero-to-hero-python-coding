@@ -1,11 +1,9 @@
 """ 
 Exceptions
+In this example, the try block will generate an exception, because x is not defined
 """
 
-def gobad(x, y):
-    return x / y
-
-def gosouth(x):
-    print(gobad(x, 0))
-
-gosouth(1)
+try:
+    print(x)
+except:
+  print("An exception occurred")
