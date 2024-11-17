@@ -6,9 +6,9 @@ import pandas as pd
 
 # List of lists
 data = [
-    ['Asabeneh', 'Finland', 'Helsink'], 
+    ['Joy', 'Finland', 'Helsink'], 
     ['David', 'UK', 'London'],
-    ['John', 'Sweden', 'Stockholm']
+    ['John', 'Nigeria', 'Abuja']
 ]
 df = pd.DataFrame(data, columns=['Names','Country','City'])
 print(df)
