@@ -21,3 +21,16 @@ Python Django is usually called the framework for perfectionists.
 ## Flask
 
 Python Flask is a web framework for building web pages.
+
+## Web scrapping
+
+Web scraping is the process of extracting and collecting data from websites and storing it on a local machine or in a database.
+
+In this section, we will use beautifulsoup and requests package to scrape data. The package version we are using is beautifulsoup 4.
+
+Installation of required libraries
+
+```sh
+pip install requests
+pip install beautifulsoup4
+```

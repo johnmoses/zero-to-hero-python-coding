@@ -74,3 +74,11 @@ How do you get this from the command line?
 2. Modules contain statements.
 3. Statements contain expressions.
 4. Expressions create and process objects.
+
+## Virtual environment
+
+Virtual environment can help us to create an isolated or separate environment. This will help us to avoid conflicts in dependencies across projects. Setting up virtual environments depend on the operating system. Mac/Linux for example can be setup with
+
+```sh
+pip3 install virtualenv
+```
