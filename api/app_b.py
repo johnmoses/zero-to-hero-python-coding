@@ -1,5 +1,5 @@
 """ 
-Flask RESTful API
+Flask RESTful API with Mongo Db
 """
 
 # Import libraries
@@ -10,6 +10,9 @@ from flask import Flask,  Response
 
 # Define flask object as application
 app = Flask(__name__)
+
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["students"]
 
 # Create index route for landing page
 @app.route('/', methods=['GET'])
