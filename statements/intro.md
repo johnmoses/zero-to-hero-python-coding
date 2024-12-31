@@ -10,7 +10,3 @@ while True:
     if reply == 'stop': break
     print(reply)
 ```
-
-- [Introduction](intro.md)
-- [Simple Statements](00_intro.md)
-- [Compound Statements](00_intro.md)
