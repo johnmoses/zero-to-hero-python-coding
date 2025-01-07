@@ -22,17 +22,11 @@ print('Now, variable a has value', a, 'and type', type(a))
 
 # Declaring multiple variables in one line
 first, second, third = 'First', 'Second', 'Third'
-print(first, second, third)
-
-# Getting variables from users
-value1 = int(input('Enter a number: '))
-value2 = int(input('Enter another number: '))
-sum = value1 + value2
-print(value1, " + ", value2, " = ", sum)
+print('First, second, third: ', first, second, third)
 
 # Getting data type
 x = 5
-print(type(x))
+print('Type: ', type(x))
 
 # Setting data type
 x = "Hello World"
@@ -48,3 +42,9 @@ x = bool(5)
 x = bytes(5)
 x = bytearray(5)
 x = memoryview(bytes(5))
+
+# Getting variables from users
+value1 = int(input('Enter a number: '))
+value2 = int(input('Enter another number: '))
+sum = value1 + value2
+print(value1, " + ", value2, " = ", sum)

@@ -8,5 +8,6 @@ subjects = ['physics', 'chemistry', 'biology']
 subjects.insert(0, 'Religion')
 print(subjects)
 
+# Insert at the end
 subjects.append('Civics')
 print(subjects)

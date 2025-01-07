@@ -1,6 +1,6 @@
 # Dictionaries
 
-Dictionaries are used to store data values in key:value pairs. 
+Dictionaries are used to store data values in key:value pairs.
 It is a collection which is ordered*, changeable and do not allow duplicates.
 
 Dictionary items are ordered, changeable, and do not allow duplicates.

@@ -16,6 +16,7 @@ print(mixed)
 # Creating with sets constructor
 # This uses double brackets
 pets = set(("dogs", "cats", "parrots"))
+print(pets)
 
 # Getting length
 print(len(fruits))

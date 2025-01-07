@@ -8,15 +8,15 @@ Syntax:
 
 # Addition
 x = lambda a : a + 10
-print(x(5))
+print("Add:", x(5))
 
 # Multiplication
 x = lambda a, b : a * b
-print(x(5, 6))
+print("Multiply: ", x(5, 6))
 
 # Summarize
 x = lambda a, b, c : a + b + c
-print(x(5, 6, 2))
+print("Summarize: ", x(5, 6, 2))
 
 # Do many things
 def myfunc(n):
@@ -25,5 +25,5 @@ def myfunc(n):
 mydoubler = myfunc(2)
 mytripler = myfunc(3)
 
-print(mydoubler(11))
-print(mytripler(11))
+print("Doubler: ", mydoubler(11))
+print("Trippler: ", mytripler(11))

@@ -1,7 +1,8 @@
 """ 
-Remove
+Remove item from dictionary
 """
 
-students = {'name': 'Edy', 'age': 26}
-students.pop('age')
-print(students.items())
+dict = {'name': 'Edy', 'age': 26}
+
+dict.pop('name')
+print(dict)
