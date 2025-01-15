@@ -33,3 +33,27 @@ Local: A variable created inside a function belongs to the local scope of that f
 
 Global: A variable created in the main body of the Python code is a global variable and belongs to the global scope.
 Global variables are available from within any scope, global and local.
+
+## Lambda Functions
+
+Lambda functions are small functions without names. They are like anonymous functions in JavaScript language. They are normally used inside other functions.
+
+## Higher Order Functions
+
+These type of functions return different functions based on the arguments
+
+## Functions as a parameter
+
+Sometimes functions can be used as paramets to another function
+
+## Functions as return values
+
+Functions can be used as return value of another function
+
+## Closures
+
+Closure is a method of allowing a nested function to access the outer scope of the enclosing function. Practically, this is done by nesting a function inside another encapsulating function and then returning the inner function.
+
+## Decorators
+
+A decorator is a design pattern in Python that allows a user to add new functionality to ans existing object without changing its structure. We create a decorator function by first creating an outer function with an inner wrapper function
