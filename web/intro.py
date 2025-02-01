@@ -1,14 +1,13 @@
 """ 
-Web scraping
+Getting requests from external API
 """
 import requests
-from bs4 import BeautifulSoup
 
-url = 'https://archive.ics.uci.edu/ml/datasets.php'
+url = 'https://jsonplaceholder.typicode.com/todos/1'
 
-# Lets use the requests get method to fetch the data from url
-
+# Use the requests get method to fetch the data from url
 response = requests.get(url)
-# lets check the status
+
+# Check the status
 status = response.status_code
 print(status) # 200 means the fetching was successful

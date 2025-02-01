@@ -13,15 +13,20 @@ employees = dict(name = "John", age = 36, country = "Norway")
 
 child_1 = {
   "name" : "Emil",
-  "year" : 2004
+  "date_of_birth" : 2004,
+  "address": {
+    "street": "Joy street",
+    "school": "Baptist High School",
+  },
+  "skills": ['Footbal','Singing'],
 }
 child_2 = {
   "name" : "Tobias",
-  "year" : 2007
+  "date_of_birth" : 2007
 }
 child_3 = {
   "name" : "Linus",
-  "year" : 2011
+  "date_of_birth" : 2011
 }
 
 family = {
@@ -30,10 +35,10 @@ family = {
   "child3" : child_3
 }
 
-print(students)
-print(cars)
-print(employees)
-print(family)
+print('Students: ', students)
+print('Cars: ', cars)
+print('Employees: ', employees)
+print('Family: ', family)
 
 # Get properties
 print(len(students))

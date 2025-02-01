@@ -9,6 +9,7 @@ import numpy as np
 data = {'Name': ['Asabeneh', 'David', 'John'], 'Country':[
     'Finland', 'UK', 'Sweden'], 'City': ['Helsiki', 'London', 'Stockholm']}
 df = pd.DataFrame(data)
+print('Dictionaries')
 print(df)
 
 # List of Dictionaries
@@ -18,4 +19,5 @@ data = [
     ['John', 'Sweden', 'Stockholm']
 ]
 df = pd.DataFrame(data, columns=['Names','Country','City'])
+print('List of Dictionaries')
 print(df)

@@ -11,6 +11,10 @@ print(lst1)
 lst2 = [[0,1,2], [3,4,5], [6,7,8]]
 print(lst2)
 
+# Boolean arrays
+boolnp = np.array([0, -1, 0, 0], dtype=bool)
+print(boolnp)
+
 # Numpy list from python list
 numpy_list = np.array(lst1)
 print(numpy_list)

@@ -1,13 +1,14 @@
 """ 
-Join or concatenate lists
+Join
 """
 
-numbers = [1, 2, 3, 4, 5]
-subjects = ['physics', 'chemistry', 'biology']
-fruits = ['banana','apple']
+# First list
+positives = [1, 2, 3, 4, 5]
+print(positives)
 
-joined_list = numbers + subjects
-print(joined_list)
+# Second list
+negatives = [-1, -2, -3, -4, -5]
+print(negatives)
 
-extended_list = numbers.extend(subjects)
-print(extended_list)
+joined = positives + negatives
+print(joined)
