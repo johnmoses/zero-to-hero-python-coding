@@ -6,14 +6,14 @@ def times(x, y):
     return x * y 
 
 # Function call
-print(times(2,3))
+print('Times: ', times(2,3))
 
 # Saving result to another object
 c = times(3, 4)
-print(c)
+print('C: ', c)
 
 # Using various types as input parameters
-print(times('ne', 3))
+print('Times: ', times('ne', 3))
 
 # Function without parameters
 def generate_full_name ():
@@ -30,4 +30,4 @@ def add_two_numbers ():
     num_two = 3
     total = num_one + num_two
     return total
-print(add_two_numbers())
+print('Add two numbers: ', add_two_numbers())

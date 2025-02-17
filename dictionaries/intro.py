@@ -41,17 +41,17 @@ print('Employees: ', employees)
 print('Family: ', family)
 
 # Get properties
-print(len(students))
-print(type(students))
+print('Students length: ',len(students))
+print('Students type: ', type(students))
 
 # Get value from key
-print(students['name'])
+print('Key value: ', students['name'])
 
 # Get keys
-print(students.keys())
+print('Students keys: ', students.keys())
 
 # Get values
-print(students.values())
+print('Students values: ', students.values())
 
 # Get items
-print(students.items())
+print('Students items: ', students.items())

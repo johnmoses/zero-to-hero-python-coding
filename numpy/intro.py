@@ -4,30 +4,30 @@ NumPy
 import numpy as np
 
 # Python list
-lst1 = [1,2,3,4,5]
-print(lst1)
+lst_1 = [1,2,3,4,5]
+print('Python list 1: ', lst_1)
 
 # Multi-dimensional list
-lst2 = [[0,1,2], [3,4,5], [6,7,8]]
-print(lst2)
+lst_22 = [[0,1,2], [3,4,5], [6,7,8]]
+print('Python list 2: ', lst_22)
 
 # Boolean arrays
-boolnp = np.array([0, -1, 0, 0], dtype=bool)
-print(boolnp)
+bool_np = np.array([0, -1, 0, 0], dtype=bool)
+print('Boolean: ', bool_np)
 
 # Numpy list from python list
-numpy_list = np.array(lst1)
-print(numpy_list)
+numpy_list = np.array(lst_1)
+print('List: ', numpy_list)
 
 # Numpy float array from python list
-numpy_floats_list = np.array(lst1, dtype=float)
-print(numpy_floats_list)
+numpy_floats_list = np.array(lst_1, dtype=float)
+print('Floats: ', numpy_floats_list)
 
 # Shape of array
-print(numpy_floats_list.shape)
+print('Floats shape: ', numpy_floats_list.shape)
 
 # Data type of array
-print(numpy_floats_list.dtype)
+print('Type: ', numpy_floats_list.dtype)
 
 # Size of array
-print(numpy_floats_list.size)
+print('Size: ', numpy_floats_list.size)

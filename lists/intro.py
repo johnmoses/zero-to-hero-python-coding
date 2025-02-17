@@ -14,7 +14,7 @@ print(list2)
 list3 = [1, 2, 3, 4, 5]
 print(list3)
 
-# Show lenght of list
+# Show length of list
 print(len(list3))
 
 # List with different data types
