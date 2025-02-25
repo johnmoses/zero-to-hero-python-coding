@@ -24,5 +24,5 @@ print('Odd numbers: ', odd_numbers)
 
 # Flattening a multidimensional array
 list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-flattened_list = [ number for row in list_of_lists for number in row]
+flattened_list = [ i for row in list_of_lists for i in row]
 print('Flatten array: ', flattened_list) 
