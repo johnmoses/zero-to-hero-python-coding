@@ -1,8 +1,10 @@
 # Dictionaries
 
 Dictionaries are used to store data values in key:value pairs.
-It is a collection which is ordered*, changeable and do not allow duplicates.
+It is a collection which is ordered, mutable(changeable) and do not allow duplicates.
 
-Dictionary items are ordered, changeable, and do not allow duplicates.
+## Key features
 
-Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+- Ordered
+- Mutable(changeable)
+- No duplicates.

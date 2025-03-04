@@ -1,11 +1,11 @@
 # Lists in Python
 
-There are four collection data types in Python
+There are four collection data types in Python. Their basic differences and similarities lies in orderliness, mutability and duplicity of members.
 
-- List: is a collection which is ordered and changeable(modifiable). Allows duplicate members.
-- Tuple: is a collection which is ordered and unchangeable or unmodifiable(immutable). Allows duplicate members.
-- Set: is a collection which is unordered, un-indexed and unmodifiable, but we can add new items to the set. Duplicate members are not allowed.
-- Dictionary: is a collection which is unordered, changeable(modifiable) and indexed. No duplicate members.
+- List: is a collection which is ordered, mutable(modifiable) and allows duplicate members.
+- Tuple: is a collection which is ordered, immutable and allows duplicate members.
+- Set: is a collection which is unordered, immutable, and allows no duplicates. Also, new items can be added to the set.
+- Dictionary: is a collection which is unordered, immutable, allows no duplicate members.
 
 ## List Comprehension
 
