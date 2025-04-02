@@ -7,16 +7,22 @@ Syntax:
 """
 
 # Addition
-x = lambda a : a + 10
+def x(a):
+      return a + 10
 print("Add:", x(5))
 
 # Multiplication
-x = lambda a, b : a * b
+x = lambda a, b: a * b
 print("Multiply: ", x(5, 6))
 
 # Summarize
-x = lambda a, b, c : a + b + c
-print("Summarize: ", x(5, 6, 2))
+# x = lambda a, b, c : a + b + c
+# print("Summarize: ", x(5, 6, 2))
+
+def summarize(a,b,c):
+      return lambda a, b, c: a + b + c
+
+print('Summarize: ',summarize(5, 6, 2))
 
 # Do many things
 def myfunc(n):

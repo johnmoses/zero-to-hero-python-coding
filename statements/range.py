@@ -3,8 +3,8 @@ range
 """
 
 # Using a range
-range(0, 5)
-list(range(5))
+# range(0, 5)
+# list(range(5))
 
 for var in list(range(5)):
     print (var)
@@ -16,13 +16,14 @@ for x in range(2, 6):
 
 # Specifying incrementation factor
 print('Using increment factor')
-for x in range(2, 30, 3):
+for x in range(2, 20, 2):
   print(x)
 
 # Using else
 print('Using conditional else')
 for x in range(6):
-    if x == 3: break
+    if x == 3: 
+          break
     print(x)
 else:
   print("Finally finished!")

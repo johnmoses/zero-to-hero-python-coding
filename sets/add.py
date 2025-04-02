@@ -6,7 +6,7 @@ fruits = {'banana', 'orange', 'mango', 'lemon'}
 pets = set(("dogs", "cats", "parrots"))
 
 fruits.add('pawpaw')
-print(fruits)
+print('Added:', fruits)
 
 # Add two sets together
 fruits.update(pets)

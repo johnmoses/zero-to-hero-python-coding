@@ -11,5 +11,6 @@ if b > a:
 # Check if user enters 'stop'
 while True:
     reply = input("Enter text: ")
-    if reply == 'stop': break
+    if reply == 'stop': 
+          break
     print(reply)

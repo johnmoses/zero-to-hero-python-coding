@@ -18,4 +18,4 @@ with open('data.csv') as f:
         else:
             print(f'\t{row[0]}, {row[1]}, {row[2]}')
             line_count += 1
-    print(f'Number of lines: ', {line_count})
+    print(f'Number of lines: {line_count}')

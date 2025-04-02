@@ -1,7 +1,6 @@
 """ 
 Scraping the web with beautiful soup
 """
-import requests
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 

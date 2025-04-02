@@ -2,11 +2,13 @@
 while loops
 """
 
+print('While loop with 1 step increment')
 i = 1
 while i < 6:
   print(i)
   i += 1
 
+print('While loop with condition and break')
 i = 1
 while i < 6:
   print(i)
@@ -14,6 +16,7 @@ while i < 6:
     break
   i += 1
 
+print('While loop with else')
 i = 1
 while i < 6:
   print(i)

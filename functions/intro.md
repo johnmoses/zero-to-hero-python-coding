@@ -42,6 +42,12 @@ Lambda functions are small functions without names. They are like anonymous func
 
 These type of functions return different functions based on the arguments
 
+## Generator Functions
+
+## Recursive Functions
+
+These are functions that call itself.
+
 ## Functions as a parameter
 
 Sometimes functions can be used as paramets to another function

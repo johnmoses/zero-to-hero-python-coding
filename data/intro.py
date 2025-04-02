@@ -42,9 +42,3 @@ x = bool(5)
 x = bytes(5)
 x = bytearray(5)
 x = memoryview(bytes(5))
-
-# Getting variables from users
-value1 = int(input('Enter a number: '))
-value2 = int(input('Enter another number: '))
-sum = value1 + value2
-print(value1, " + ", value2, " = ", sum)

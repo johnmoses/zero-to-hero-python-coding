@@ -37,7 +37,7 @@ def index():
 
 # List of users
 @app.route('/users', methods = ['GET'])
-def students ():
+def users ():
     return Response(json.dumps(users), mimetype='application/json')
 
 # Get all todos
