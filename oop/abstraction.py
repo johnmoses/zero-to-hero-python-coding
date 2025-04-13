@@ -1,5 +1,8 @@
 """ 
 Data abstraction
+Abstraction is the process of hiding the internal details and showing only the necessary information to the user.
+
+It can be achieved in Python using abstract classes and abstract methods.
 """
 
 from abc import ABC, abstractmethod

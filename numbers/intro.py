@@ -2,6 +2,7 @@
 Numbers
 Integers, Floats, Complex
 """
+import random
 
 x = 1  
 print(type(x))
@@ -43,7 +44,6 @@ print(type(z))
 
 # Random numbers
 print('Random')
-import random
 x = random.random()
 print(x)
 

@@ -1,10 +1,10 @@
 """ 
 Finally block
 """
-
 try:
-    print(x)
-except:
-  print("Something went wrong")
+    print("Hello")
+    print(1/0)
+except ZeroDivisionError:
+    print("Divided by zero")
 finally:
-  print("The 'try except' is finished")
+    print("This is finally block")

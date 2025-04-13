@@ -4,7 +4,7 @@ Making or Creating a Directory
 
 import os
 directory = "d1"
-parent_dir = "/Users/johnmoses/Codings/zero-to-hero-coding/09_operating_systems"
+parent_dir = "/Users/johnmoses/Workspace/zero-to-hero-python-coding/os"
 path = os.path.join(parent_dir, directory)
 
 os.mkdir(path)

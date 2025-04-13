@@ -21,6 +21,7 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 print(fruits.index('orange'))   # 1
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 print(ages.index(24)) 
+
 # Reverse
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.reverse()
@@ -29,17 +30,15 @@ ages = [22, 19, 24, 25, 26, 24, 25, 24]
 ages.reverse()
 print(ages) 
 
-
 # Repeat
 print(s * 2)
-
 s = 'z' + s[1:]
 print(s)
 
 # Expanding to list
 print('Expanding with list')
-l = list(s)
-print(l)
+ls = list(s)
+print(ls)
 
 # Subset
 print('Subsets')

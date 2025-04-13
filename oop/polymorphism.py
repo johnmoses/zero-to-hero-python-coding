@@ -1,5 +1,8 @@
 """ 
 Polumorphism
+
+Polymorphism is the ability of objects to take on many forms.
+
 """
 
 class Car:

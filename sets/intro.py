@@ -1,5 +1,11 @@
 """ 
 Sets
+
+A set is a collection which is unordered, unchangeable*, and unindexed.
+
+This means that the items are unchangeable, but you can remove items and add new items.
+
+Sets are written with the `set` keyword and double brackets or with curly brackets.
 """
 
 # Creating an empty set

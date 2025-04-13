@@ -8,13 +8,13 @@ print('1 => a = ',a,':',bin(a),'b = ',b,':',bin(b))
 
 c = 0
 
-c = a & b;  # a AND b
+c = a & b  # a AND b
 print('2 => ',c,':',bin(c))
 
-c = a | b;  # a OR b
+c = a | b  # a OR b
 print('3 => ',c,':',bin(c))
 
-c = a ^ b;  # EXOR
+c = a ^ b  # EXOR
 print('4 => ',c,':',bin(c))
 
 c = ~a  # complement

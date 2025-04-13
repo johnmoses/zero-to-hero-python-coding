@@ -2,14 +2,14 @@
 Sort a dictionary
 '''
 
-dict = {'name': 'Peter', 'height': 4, 'complexion': 'fair', 'sex': 'male' }
-print('Data: ', dict)
+dic = {'name': 'Peter', 'height': 4, 'complexion': 'fair', 'sex': 'male' }
+print('Data: ', dic)
 
 # Basic
-print('Basic: ', sorted(dict))
+print('Basic: ', sorted(dic))
 
 # Sort by key
-print('By key: ', sorted(dict.items()))
+print('By key: ', sorted(dic.items()))
 
 # Sort by value
-print('By value: ', sorted(dict.items(), key=lambda x : x[0]))
+print('By value: ', sorted(dic.items(), key=lambda x : x[0]))

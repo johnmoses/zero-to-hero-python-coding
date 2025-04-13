@@ -10,6 +10,3 @@ print(numbers)
 
 subjects.pop()
 print(subjects)
-
-del numbers[3]
-print(numbers)

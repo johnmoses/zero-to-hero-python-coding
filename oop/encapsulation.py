@@ -1,5 +1,11 @@
 """ 
 Encapsulation
+
+Encapsulation is a programming concept that binds together the data and functions that work on the data within a class.
+
+Encapsulation helps in:
+    - Protecting data from unauthorized access
+    - Preventing data from being modified accidentally
 """
 
 class Dog:

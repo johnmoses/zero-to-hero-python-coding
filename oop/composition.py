@@ -1,5 +1,7 @@
 """ 
-Composition
+Composition in Python
+
+Composition is a way to combine objects to form a new object.
 """
 
 # Component class

@@ -2,12 +2,12 @@
 Update
 """
 
-dict = {'name': 'Edy', 'age': 26}
+dic = {'name': 'Edy', 'age': 26}
 
 print('Method 1')
-dict['address'] = 'London'
-print(dict)
+dic['address'] = 'London'
+print(dic)
 
 print('Method 2')
-dict.update({'name':'Vicky'})
-print(dict.items())
+dic.update({'name':'Vicky'})
+print(dic.items())

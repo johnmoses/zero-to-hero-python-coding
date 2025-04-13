@@ -6,7 +6,8 @@ if statement
 a = 40
 b = 6
 c = 50
-if a > b: print("a is greater than b")
+if a > b: 
+    print("a is greater than b")
 
 # Using 'and' condition
 if a > b and c > a:
