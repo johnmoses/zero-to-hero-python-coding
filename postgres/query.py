@@ -33,7 +33,7 @@ data2 = curr.fetchmany()
 data3 = curr.fetchall()
 
 # Print results
-for row in data:
+for row in data1:
     print(row)
 
 # Close connection

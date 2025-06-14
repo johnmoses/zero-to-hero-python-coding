@@ -44,9 +44,11 @@ These type of functions return different functions based on the arguments
 
 ## Generator Functions
 
+Generator functions are a special kind of function that return a lazy iterator. These are objects that you can iterate over like a list. However, unlike lists, lazy iterators do not store their contents in memory.
+
 ## Recursive Functions
 
-These are functions that call itself.
+A recursive function is a function that calls itself.
 
 ## Functions as a parameter
 
@@ -62,4 +64,4 @@ Closure is a method of allowing a nested function to access the outer scope of t
 
 ## Decorators
 
-A decorator is a design pattern in Python that allows a user to add new functionality to ans existing object without changing its structure. We create a decorator function by first creating an outer function with an inner wrapper function
+A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without changing its structure. We create a decorator function by first creating an outer function with an inner wrapper function

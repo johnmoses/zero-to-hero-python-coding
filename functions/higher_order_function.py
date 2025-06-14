@@ -1,5 +1,7 @@
 """ 
 Higher Order Functions
+
+These functions take functions as arguments or return functions as results.
 """
 
 def higher_order_function(type):

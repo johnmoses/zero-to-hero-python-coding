@@ -12,7 +12,7 @@ def x(a):
 print("Add:", x(5))
 
 # Multiplication
-x = lambda a, b: a * b
+x = lambda a, b: a * b  # noqa: E731
 print("Multiply: ", x(5, 6))
 
 # Summarize
