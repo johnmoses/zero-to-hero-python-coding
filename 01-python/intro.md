@@ -82,3 +82,31 @@ Virtual environment can help us to create an isolated or separate environment. T
 ```sh
 pip3 install virtualenv
 ```
+
+## Environment management
+
+Manage dependencies using `pip` and lock them for reproducibility:
+
+```sh
+pip install requests
+pip freeze > requirements.txt
+pip install -r requirements.txt
+```
+
+Use `pyenv` to manage multiple Python versions on the same machine.
+
+## Problem solving with code
+
+Coding means writing instructions that a computer can understand and execute for outputs. A good problem-solving approach:
+
+1. Understand the problem
+2. Break it into smaller steps
+3. Write code for each step
+4. Test and refine
+
+```py
+# Example: sum of a list
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)  # 15
+```

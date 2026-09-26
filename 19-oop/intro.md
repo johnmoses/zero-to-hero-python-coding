@@ -45,3 +45,24 @@ A class typically encapulates public, private and protected members including fu
 ## Data Abstraction
 
 This hides the internal implementation details while exposing only the necessary functionality. It helps focus on “what to do” rather than “how to do it.”
+
+## Type Hints
+
+Type hints make code more readable and catch bugs early. They are not enforced at runtime but work with tools like `mypy`.
+
+```py
+def greet(name: str) -> str:
+    return f"Hello, {name}"
+
+def add(a: int, b: int) -> int:
+    return a + b
+```
+
+Use `Optional` and `Union` from the `typing` module for complex types:
+
+```py
+from typing import Optional
+
+def find_user(user_id: int) -> Optional[str]:
+    return None  # or a name string
+```

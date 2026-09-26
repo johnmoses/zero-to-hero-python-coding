@@ -5,7 +5,7 @@ Learning to code from scratch using Python — structured from absolute basics t
 ## Table of Contents
 
 ### Foundation
-1. [Python](./01-python/) — print, variables, comments, built-in functions
+1. [Python](./01-python/) — print, variables, comments, built-in functions, environment setup, problem solving
 2. [Numbers](./02-numbers/) — numeric types, math, casting
 3. [Booleans](./03-booleans/) — True/False, isinstance
 4. [Strings](./04-strings/) — manipulation, formatting, regex
@@ -21,15 +21,15 @@ Learning to code from scratch using Python — structured from absolute basics t
 10. [Expressions](./10-expressions/) — arithmetic, logical, bitwise operators
 11. [Statements](./11-statements/) — if/elif/else, for, while, range
 12. [Functions](./12-functions/) — args, lambdas, decorators, generators
-13. [Exceptions](./13-exceptions/) — try/except, raise, finally
+13. [Exceptions](./13-exceptions/) — try/except, raise, finally, logging
+14. [Testing](./14-testing/) — unittest, pytest, fixtures, mocking
 
 ### Intermediate
-14. [Coding](./14-coding/) — problem-solving patterns
 15. [Imports](./15-imports/) — modules and packages
-16. [Files](./16-files/) — read/write, CSV, JSON, pickle
-17. [Data](./17-data/) — data handling, JSON I/O
+16. [Files](./16-files/) — read/write, CSV, JSON, pickle, data types
+17. [Concurrency](./17-concurrency/) — threading, multiprocessing, asyncio
 18. [OS](./18-os/) — filesystem, directories, time
-19. [OOP](./19-oop/) — classes, inheritance, polymorphism, abstraction
+19. [OOP](./19-oop/) — classes, inheritance, polymorphism, abstraction, type hints
 
 ### Data & Networking
 20. [NumPy](./20-numpy/) — arrays, math operations
@@ -41,7 +41,5 @@ Learning to code from scratch using Python — structured from absolute basics t
 
 ### Web & APIs
 26. [Web](./26-web/) — web scraping
-27. [Flask](./27-flask/) — micro web framework
-28. [Django](./28-django/) — full web framework
-29. [FastAPI](./29-fastapi/) — async API framework
-30. [API](./30-api/) — REST concepts and API design
+27. [Web Frameworks](./27-webframeworks/) — Flask and Django
+28. [APIs](./28-api/) — REST concepts, FastAPI, API examples
