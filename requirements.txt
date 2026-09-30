@@ -1,0 +1,23 @@
+# Core
+pytest
+pytest-mock
+
+# Data
+numpy
+pandas
+
+# Databases
+psycopg2-binary
+pymongo
+
+# Web & APIs
+fastapi
+uvicorn[standard]
+flask
+django
+requests
+beautifulsoup4
+
+# Utilities
+python-dotenv
+mypy
